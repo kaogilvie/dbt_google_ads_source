@@ -2,3 +2,4 @@
 
 select * 
 from {{ var('ad_history') }}
+where _fivetran_active

@@ -2,3 +2,4 @@
 
 select * 
 from {{ var('ad_group_criterion_history') }}
+where _fivetran_active
